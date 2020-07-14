@@ -21,7 +21,7 @@ make ENGINE_DIR=/path/to/engine CLI_DIR=/path/to/cli fedora
 
 ## Specifying a specific distro version
 ```shell
-make ENGINE_DIR=/path/to/engine CLI_DIR=/path/to/cli fedora-25
+make ENGINE_DIR=/home/zhouxin/github/docker-ce/components/engine CLI_DIR=/home/zhouxin/github/docker-ce/components/cli centos-7
 ```
 
 ## Building the latest docker-ce
