@@ -100,3 +100,4 @@ sources/plugin-installers.tgz: $(wildcard ../plugins/*)
 		-v $(CURDIR)/sources:/v \
 		alpine \
 		tar -C / -c -z -f /v/plugin-installers.tgz --exclude .git plugins
+
